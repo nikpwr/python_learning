@@ -12,6 +12,9 @@ This GitHub documents my ongoing technical work: small projects, experiments, an
 💬 Contact
 
 Email: nickpower.dev@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/nickpower/
+
 Location: Helsinki, Finland
+
 Open to recruitment, work, collaboration and feedback on scripts or approaches.
