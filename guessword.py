@@ -2,10 +2,11 @@
 
 class Guessword:
 
+    VALID_LETTERS = 'abcdefghijklmnopqrstuvwzäö'
+
     def __init__(self, hidden_word:str):
         self._hidden_word = hidden_word
         self._resolved_word = ['_'] * len(self._hidden_word)
-        Guessword._VALID_LETTERS = 'abcdefghijklmnopqrstuvwzäö'
         self.used_letters = set() #It's better to use a set instead of a string because strings are immuttable and will create new pointers
         self._is_resolved = False
 
@@ -48,7 +49,7 @@ class Guessword:
                     return '0'
                 case _:
                     for letter in answer:
-                        if letter not in Guessword._VALID_LETTERS:
+                        if letter not in Guessword.VALID_LETTERS:
                             break
                     else:
                         return answer
